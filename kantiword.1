@@ -1,0 +1,46 @@
+.TH KANTIWORD 1 "Jul 31, 2005" "Antiword 0.36.1" "Linux User's Manual"
+.SH NAME
+kantiword \- installs desktop icon for d'n'd function of antiword
+.SH SYNOPSIS
+.B kantiword
+[
+.I papersize " wordfile"
+]
+.SH DESCRIPTION
+.I kantiword
+is a helper script for antiword(1), an application that displays the
+text and the images of Microsoft Word documents.
+.br
+Kantiword can be used to install an icon on your destop
+(into ~/Desktop dir), if it will be invoked with less that 2
+parameters.
+.br
+If it is called with 2 parameters, it will convert a copy of
+wordfile to PDF and display it. Plain text output will be used, if no
+PDF viewer like kpdf, xpdf or gv is installed.
+
+.SH PARAMETER
+.TP
+.B papersize
+paper size ('a4' or 'letter') of given wordfile.
+.TP
+.B wordfile
+Microsoft Word document to display.
+
+.SH SEE ALSO
+.BR antiword (1).
+.br
+
+.SH AUTHOR
+kantiword was written by Adri van Os <antiword@winfield.demon.nl>
+and adapted by Erik Schanze <schanzi_@gmx.de>.
+.PP
+This manual page was written by Erik Schanze <schanzi_@gmx.de>.
+
+.SH ACKNOWLEDGEMENTS
+Linux is a registered trademark of Linus Torvalds.
+.br
+Adobe, PDF and PostScript are trademarks of Adobe Systems Incorporated.
+.br
+Microsoft is a registered trademark and Windows is a trademark of Microsoft
+Corporation.

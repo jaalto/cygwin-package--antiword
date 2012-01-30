@@ -1,0 +1,13 @@
+diff -r 6213da160e16 kantiword.1
+--- a/kantiword.1	Mon Aug 06 14:30:54 2007 +0300
++++ b/kantiword.1	Mon Aug 06 14:32:42 2007 +0300
+@@ -35,8 +35,7 @@ kantiword was written by Adri van Os <an
+ kantiword was written by Adri van Os <antiword@winfield.demon.nl>
+ and adapted by Erik Schanze <schanzi_@gmx.de>.
+ .PP
+-This manual page was written by Erik Schanze <schanzi_@gmx.de>,
+-for the Debian project (but may be used by others).
++This manual page was written by Erik Schanze <schanzi_@gmx.de>.
+ 
+ .SH ACKNOWLEDGEMENTS
+ Linux is a registered trademark of Linus Torvalds.

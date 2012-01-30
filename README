@@ -1,0 +1,88 @@
+Antiword for Cygwin
+------------------------------------------
+
+Antiword is a free MS Word reader for Linux and RISC OS. 
+There are ports to BeOS, OS/2, Mac OS X, Amiga, VMS, 
+NetWare, EPOC, Zaurus PDA and DOS. Antiword converts the 
+binary files from Word 2, 6, 7, 97, 2000 and 2002 to 
+plain text, XML and to PostScript(tm). 
+
+The zantiword icon is © Chinique 2003 and I found it here: 
+http://strony.ac-net.pl/magdah/zantiword/
+
+Runtime requirements:
+  cygwin-1.5.5 or newer
+
+Build requirements:
+  cygwin-1.5.5 or newer
+  gcc
+  binutils
+
+Canonical homepage:
+  http://www.antiword.org/
+
+Canonical download:
+  http://www.winfield.demon.nl/linux/antiword-0.34.tar.gz
+  
+------------------------------------
+
+Build instructions:
+  unpack antiword-0.34-2-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./antiword-0.34-2.sh
+
+This will create:
+  /usr/src/antiword-0.34-2.tar.bz2
+  /usr/src/antiword-0.34-2-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro
+
+/usr/bin/antiword.exe
+/usr/share/antiword/8859-1.txt
+/usr/share/antiword/8859-10.txt
+/usr/share/antiword/8859-13.txt
+/usr/share/antiword/8859-14.txt
+/usr/share/antiword/8859-15.txt
+/usr/share/antiword/8859-16.txt
+/usr/share/antiword/8859-2.txt
+/usr/share/antiword/8859-3.txt
+/usr/share/antiword/8859-4.txt
+/usr/share/antiword/8859-5.txt
+/usr/share/antiword/8859-6.txt
+/usr/share/antiword/8859-7.txt
+/usr/share/antiword/8859-8.txt
+/usr/share/antiword/8859-9.txt
+/usr/share/antiword/cp1250.txt
+/usr/share/antiword/cp1251.txt
+/usr/share/antiword/cp1252.txt
+/usr/share/antiword/cp437.txt
+/usr/share/antiword/cp850.txt
+/usr/share/antiword/cp852.txt
+/usr/share/antiword/cp862.txt
+/usr/share/antiword/cp866.txt
+/usr/share/antiword/fontnames
+/usr/share/antiword/koi8-r.txt
+/usr/share/antiword/koi8-u.txt
+/usr/share/antiword/MacRoman.txt
+/usr/share/antiword/roman.txt
+/usr/share/antiword/UTF-8.txt
+/usr/share/doc/Cygwin/antiword-0.34-2.README
+/usr/share/man/man1/antiword.1
+
+-------------------------------------------
+
+Port Notes:
+
+-------------- version 0.34-2 -------------
+Added some 0x0000 to the mapping files to avoid useless error
+messages.
+
+-------------- version 0.34-1 -------------
+Initial release: 2003-10-09
+
+
+Cygwin port maintained by: Gerrit P. Haase  <gp@familiehaase.de> 

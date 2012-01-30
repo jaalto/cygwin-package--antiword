@@ -1,0 +1,123 @@
+antiword
+------------------------------------------
+
+A free MS Word reader
+
+Antiword is a free MS Word reader for Linux and RISC OS. 
+There are ports to BeOS, OS/2, Mac OS X, Amiga, VMS, 
+NetWare, EPOC, Zaurus PDA and DOS. Antiword converts the 
+binary files from Word 2, 6, 7, 97, 2000 and 2002 to 
+plain text, XML and to PostScript.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+  base64
+
+Canonical homepage:
+  See topic "Programmers' version" for Linux source
+  http://www.antiword.org/
+
+Canonical download:
+  http://packages.debian.org/unstable/text/antiword
+
+Version control repository:
+
+Mailing list:
+
+IRC channel:
+
+Upstream contact:
+  Author: Adri van Os <antiword@winfield.demon.nl>
+  Bugs: Antiword Team <antiword@winfield.demon.nl>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack antiword-0.37-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./antiword*.sh all
+
+This will create:
+  antiword-0.37-1.tar.bz2
+  antiword-0.37-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/antiword.exe
+usr/bin/kantiword
+usr/share/antiword/8859-1.txt
+usr/share/antiword/8859-10.txt
+usr/share/antiword/8859-11.txt
+usr/share/antiword/8859-13.txt
+usr/share/antiword/8859-14.txt
+usr/share/antiword/8859-15.txt
+usr/share/antiword/8859-16.txt
+usr/share/antiword/8859-2.txt
+usr/share/antiword/8859-3.txt
+usr/share/antiword/8859-4.txt
+usr/share/antiword/8859-5.txt
+usr/share/antiword/8859-6.txt
+usr/share/antiword/8859-7.txt
+usr/share/antiword/8859-8.txt
+usr/share/antiword/8859-9.txt
+usr/share/antiword/MacCyrillic.txt
+usr/share/antiword/MacRoman.txt
+usr/share/antiword/UTF-8.txt
+usr/share/antiword/cp1250.txt
+usr/share/antiword/cp1251.txt
+usr/share/antiword/cp1252.txt
+usr/share/antiword/cp437.txt
+usr/share/antiword/cp850.txt
+usr/share/antiword/cp852.txt
+usr/share/antiword/cp862.txt
+usr/share/antiword/cp864.txt
+usr/share/antiword/cp866.txt
+usr/share/antiword/fontnames
+usr/share/antiword/koi8-r.txt
+usr/share/antiword/koi8-u.txt
+usr/share/antiword/roman.txt
+usr/share/doc/Cygwin/antiword-0.37.README
+usr/share/doc/antiword-0.37/COPYING
+usr/share/doc/antiword-0.37/ChangeLog
+usr/share/doc/antiword-0.37/Emacs
+usr/share/doc/antiword-0.37/Exmh
+usr/share/doc/antiword-0.37/FAQ
+usr/share/doc/antiword-0.37/History
+usr/share/doc/antiword-0.37/Mozilla
+usr/share/doc/antiword-0.37/Mutt
+usr/share/doc/antiword-0.37/ReadMe
+usr/share/doc/antiword-0.37/testdoc.doc
+usr/share/man/man1/antiword.1.gz
+usr/share/man/man1/kantiword.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.37-1 -----
+- New Upstream release. New maintainer Jari Aalto
+- No manual page: kantiword.1; copied from Debian and
+  applied patch kantiword.1.patch.cygwin
+
+----- version 0.34-2 -----
+- Gerrit P. Haase
+- Added some 0x0000 to the mapping files to avoid useless error
+  messages.
+
+------ version 0.34-1 -----
+Initial release: 2003-10-09 Gerrit P. Haase
+
+Cygwin port maintained by: Jari Aalto <jari dt aalto A T cante dt net>
