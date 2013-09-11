@@ -11,10 +11,12 @@ plain text, XML and to PostScript.
 
 Runtime requirements:
   cygwin
+  libX11_6
 
 Build requirements:
   cygwin
   base64
+  libX11-devel
 
 Canonical homepage:
   See topic "Programmers' version" for Linux source
